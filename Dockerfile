@@ -1,5 +1,5 @@
 FROM alpine:edge
-MAINTAINER madsonic <support@madsonic.org>
+MAINTAINER madsonic <support@madsonic.org>, philipp <admin@philipp.info>
 
 ENV GID=991 UID=991
 ENV JVM_MEMORY=256
@@ -7,8 +7,8 @@ ENV JVM_MEMORY=256
 # Madsonic Package Information
 ENV PKG_NAME madsonic
 ENV PKG_VER 6.3
-ENV PKG_BUILD 9540
-ENV PKG_DATE 20170703
+ENV PKG_BUILD 9820
+ENV PKG_DATE 20171231
 ENV TGZ_NAME ${PKG_DATE}_${PKG_NAME}-${PKG_VER}.${PKG_BUILD}-standalone.tar.gz
 
 WORKDIR /madsonic
